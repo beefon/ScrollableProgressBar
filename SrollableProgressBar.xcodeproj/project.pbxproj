@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E95F56A21D0B1A0500B65C91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E95F56A11D0B1A0500B65C91 /* AppDelegate.m */; };
+		E95F56A51D0B1A0500B65C91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E95F56A41D0B1A0500B65C91 /* main.m */; };
+		E95F56A71D0B1A0500B65C91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95F56A61D0B1A0500B65C91 /* Assets.xcassets */; };
+		E95F56AA1D0B1A0500B65C91 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95F56A81D0B1A0500B65C91 /* MainMenu.xib */; };
+		E95F56B31D0B1A2900B65C91 /* BFScrollableProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E95F56B21D0B1A2900B65C91 /* BFScrollableProgressBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E95F569D1D0B1A0500B65C91 /* SrollableProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SrollableProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95F56A01D0B1A0500B65C91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E95F56A11D0B1A0500B65C91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E95F56A41D0B1A0500B65C91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E95F56A61D0B1A0500B65C91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E95F56A91D0B1A0500B65C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E95F56AB1D0B1A0500B65C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95F56B11D0B1A2900B65C91 /* BFScrollableProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFScrollableProgressBar.h; sourceTree = "<group>"; };
+		E95F56B21D0B1A2900B65C91 /* BFScrollableProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFScrollableProgressBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E95F569A1D0B1A0500B65C91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E95F56941D0B1A0500B65C91 = {
+			isa = PBXGroup;
+			children = (
+				E95F569F1D0B1A0500B65C91 /* SrollableProgressBar */,
+				E95F569E1D0B1A0500B65C91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E95F569E1D0B1A0500B65C91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E95F569D1D0B1A0500B65C91 /* SrollableProgressBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E95F569F1D0B1A0500B65C91 /* SrollableProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				E95F56A01D0B1A0500B65C91 /* AppDelegate.h */,
+				E95F56A11D0B1A0500B65C91 /* AppDelegate.m */,
+				E95F56B11D0B1A2900B65C91 /* BFScrollableProgressBar.h */,
+				E95F56B21D0B1A2900B65C91 /* BFScrollableProgressBar.m */,
+				E95F56A61D0B1A0500B65C91 /* Assets.xcassets */,
+				E95F56A81D0B1A0500B65C91 /* MainMenu.xib */,
+				E95F56AB1D0B1A0500B65C91 /* Info.plist */,
+				E95F56A31D0B1A0500B65C91 /* Supporting Files */,
+			);
+			path = SrollableProgressBar;
+			sourceTree = "<group>";
+		};
+		E95F56A31D0B1A0500B65C91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E95F56A41D0B1A0500B65C91 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E95F569C1D0B1A0500B65C91 /* SrollableProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95F56AE1D0B1A0500B65C91 /* Build configuration list for PBXNativeTarget "SrollableProgressBar" */;
+			buildPhases = (
+				E95F56991D0B1A0500B65C91 /* Sources */,
+				E95F569A1D0B1A0500B65C91 /* Frameworks */,
+				E95F569B1D0B1A0500B65C91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SrollableProgressBar;
+			productName = SrollableProgressBar;
+			productReference = E95F569D1D0B1A0500B65C91 /* SrollableProgressBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E95F56951D0B1A0500B65C91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = beefon;
+				TargetAttributes = {
+					E95F569C1D0B1A0500B65C91 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E95F56981D0B1A0500B65C91 /* Build configuration list for PBXProject "SrollableProgressBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E95F56941D0B1A0500B65C91;
+			productRefGroup = E95F569E1D0B1A0500B65C91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E95F569C1D0B1A0500B65C91 /* SrollableProgressBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E95F569B1D0B1A0500B65C91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95F56A71D0B1A0500B65C91 /* Assets.xcassets in Resources */,
+				E95F56AA1D0B1A0500B65C91 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E95F56991D0B1A0500B65C91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95F56A51D0B1A0500B65C91 /* main.m in Sources */,
+				E95F56A21D0B1A0500B65C91 /* AppDelegate.m in Sources */,
+				E95F56B31D0B1A2900B65C91 /* BFScrollableProgressBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E95F56A81D0B1A0500B65C91 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95F56A91D0B1A0500B65C91 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E95F56AC1D0B1A0500B65C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E95F56AD1D0B1A0500B65C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E95F56AF1D0B1A0500B65C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SrollableProgressBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beefon.SrollableProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E95F56B01D0B1A0500B65C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SrollableProgressBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beefon.SrollableProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E95F56981D0B1A0500B65C91 /* Build configuration list for PBXProject "SrollableProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95F56AC1D0B1A0500B65C91 /* Debug */,
+				E95F56AD1D0B1A0500B65C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95F56AE1D0B1A0500B65C91 /* Build configuration list for PBXNativeTarget "SrollableProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95F56AF1D0B1A0500B65C91 /* Debug */,
+				E95F56B01D0B1A0500B65C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E95F56951D0B1A0500B65C91 /* Project object */;
+}
